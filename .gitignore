@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+
+# Environment — never commit real credentials, only *.env.example
+.env
+.env.*
+!.env.example
+!*/.env.example
+*.local
+
+# Secrets that the app reads from disk
+*.pem
+*.key
+*.p12
+cookies.txt
+*cookies*.txt
+
+# Storage — user uploads and generated media
+backend/storage/
+storage/
+
+# AI assistant tooling (may contain machine-local paths, prompts, transcripts)
+.claude/
+.claude.json
+.claude/settings.local.json
+CLAUDE.md
+CLAUDE.local.md
+.mcp.json
+.aider*
+.cursor/
+.github/copilot-instructions.md
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

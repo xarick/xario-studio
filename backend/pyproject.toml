@@ -1,0 +1,69 @@
+[project]
+name = "xario-studio-backend"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "sqlalchemy>=2.0",
+    "alembic>=1.13.0",
+    "psycopg2-binary>=2.9",
+    "python-multipart>=0.0.9",
+    "aiofiles>=24.1.0",
+    "yt-dlp>=2024.11.0",
+    "httpx>=0.27.0",
+    "pydantic-settings>=2.0",
+    "passlib[bcrypt]>=1.7",
+    "python-jose[cryptography]>=3.3",
+    "openai>=1.0",
+    "bcrypt<4.0",
+    "faster-whisper>=1.0.0",
+    # Capped <2.5: numba (pulled by coqui-tts → librosa for TTS) only supports
+    # NumPy <= 2.4. Without the cap `uv run` upgrades NumPy and breaks TTS.
+    "numpy>=1.26,<2.5",
+    "opencv-python-headless>=4.9",
+    # Image processing — background removal (rembg/u2net, CPU onnxruntime).
+    "rembg>=2.0",
+    "pillow>=10",
+    # Background job queue — heavy ML jobs run in a separate worker process
+    # (broker + result backend = Redis) instead of blocking the web process.
+    "celery[redis]>=5.4",
+    "redis>=5.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24",
+    "httpx>=0.27",
+]
+
+# GPU transcription (faster-whisper on CUDA) + vocal separation (Demucs/torch).
+# Safe to omit on CPU-only hosts — the app auto-falls back to CPU.
+# Install with: uv sync --extra gpu
+# NOTE: for separation GPU, torch must match the driver. On a CUDA 12.2 driver:
+#   uv pip install torch==2.4.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu121
+[project.optional-dependencies]
+gpu = [
+    "nvidia-cublas-cu12",
+    "nvidia-cudnn-cu12>=9,<10",
+    "demucs>=4.0",
+    # Text-to-speech (Coqui XTTS-v2). Maintained fork of the original `TTS`
+    # package; installs as the `TTS` module. Works with the pinned torch
+    # 2.4.1+cu121. Model (~1.8 GB) downloads on first synthesis.
+    "coqui-tts>=0.24",
+    # transformers 5.x removed isin_mps_friendly which XTTS's tortoise layer
+    # imports; keep on the 4.57+ line that still ships it.
+    "transformers>=4.57,<5",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/app"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

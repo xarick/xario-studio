@@ -1,0 +1,701 @@
+{
+  "nav": {
+    "panel": "Panel",
+    "system": "System",
+    "dashboard": "Dashboard",
+    "videos": "Videos",
+    "editor": "Video editor",
+    "videoMerge": "Merge videos",
+    "newVideo": "New Video",
+    "history": "History",
+    "audios": "Audios",
+    "newAudio": "Text → Speech",
+    "audioHistory": "Audio History",
+    "photos": "Photos",
+    "newPhoto": "New Photo",
+    "photoHistory": "Photo History",
+    "tools": "Tools",
+    "settings": "Settings",
+    "users": "Users",
+    "subtitle": "Add subtitles",
+    "transcribe": "Transcribe",
+    "cleanup": "Audio cleanup",
+    "separate": "Vocal split",
+    "dub": "Translate/Dub",
+    "img2Short": "Image to Short",
+    "videoToText": "Video to text"
+  },
+  "modeBadge": {
+    "simple": "Simple",
+    "smart": "Smart",
+    "pro": "Track",
+    "edit": "Montage",
+    "subtitle": "Subtitle",
+    "cleanup": "Cleanup",
+    "separate": "Separate",
+    "dub": "Dub",
+    "transcribe": "Text",
+    "tts": "Voice",
+    "tool": "Tool"
+  },
+  "audio": {
+    "comingSoon": "Coming soon",
+    "soonTitle": "Audio module in development",
+    "soonDesc": "Podcast → Shorts, audio visualization, and more features coming soon",
+    "historyTitle": "Audio History",
+    "feat1": "Podcast → Shorts",
+    "feat2": "Waveform visual",
+    "feat3": "Auto subtitles",
+    "feat4": "Audio cleanup",
+    "empty": {
+      "addAudio": "Create your first audio"
+    }
+  },
+  "images": {
+    "comingSoon": "Coming soon",
+    "soonTitle": "Photos module in development",
+    "soonDesc": "Text to Image, background removal, and more features coming soon",
+    "historyTitle": "Photo History"
+  },
+  "tools": {
+    "comingSoon": "Coming soon",
+    "soonTitle": "Tools module in development",
+    "soonDesc": "Subtitle generator, thumbnail maker, script writer, and more",
+    "feat1": "Subtitle Generator",
+    "feat2": "Thumbnail Maker",
+    "feat3": "Script Writer"
+  },
+  "status": {
+    "pending": "Pending",
+    "downloading": "Downloading",
+    "processing": "Processing",
+    "completed": "Completed",
+    "failed": "Failed"
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Something went wrong",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "refresh": "Refresh",
+    "search": "Search…",
+    "back": "Back",
+    "all": "All",
+    "add": "Add",
+    "close": "Close",
+    "create": "Create",
+    "noChanges": "No changes to save",
+    "logout": "Sign out"
+  },
+  "login": {
+    "subtitle": "Sign in to admin panel",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Sign In",
+    "footer": "Users are created by the super admin",
+    "invalidCredentials": "Invalid username or password",
+    "welcome": "Welcome back!"
+  },
+  "dashboard": {
+    "greeting": "Hello,",
+    "subtitle": "Manage your video shorts",
+    "newVideo": "New Video",
+    "recentVideos": "Recent Videos",
+    "viewAll": "View all",
+    "stats": {
+      "totalVideos": "Total Videos",
+      "shortsCreated": "Shorts Created",
+      "successful": "Successful",
+      "processing": "Processing"
+    },
+    "empty": {
+      "title": "No videos yet",
+      "subtitle": "Add your first video — AI will split it into shorts automatically",
+      "action": "Add Video"
+    },
+    "failedAlert_one": "{{count}} video failed to process",
+    "failedAlert_other": "{{count}} videos failed to process",
+    "viewHistory": "View in history →",
+    "quickActions": "Quick actions"
+  },
+  "history": {
+    "title": "History",
+    "total": "{{count}} videos",
+    "noVideos": "No videos yet",
+    "allModes": "All modes",
+    "table": {
+      "video": "Video",
+      "mode": "Mode",
+      "shorts": "Shorts",
+      "duration": "Duration",
+      "date": "Date",
+      "status": "Status"
+    },
+    "deleted": "Video deleted",
+    "empty": {
+      "notFound": "Nothing found",
+      "noVideos": "No videos yet",
+      "clearFilter": "Clear filter",
+      "addFirst": "Add your first video",
+      "addVideo": "Add Video"
+    }
+  },
+  "newVideo": {
+    "title": "New Video",
+    "subtitle": "Enter a video — AI will split it into shorts",
+    "urlMode": "Via URL",
+    "urlSub": "YouTube, TikTok, Vimeo…",
+    "fileMode": "Upload File",
+    "fileSub": "MP4, MOV, AVI, MKV, WebM",
+    "urlHint": "YouTube, TikTok, Instagram, Vimeo and other platforms",
+    "aiSuggest": "Get AI suggestion",
+    "analyzing": "Analyzing…",
+    "aiRecommends": "AI recommends: {{count}} shorts",
+    "apply": "Apply",
+    "shortsCount": "Number of Shorts",
+    "submit": "Split into Shorts",
+    "dropFile": "Drop file here",
+    "orClick": "or click to browse · max 500 MB",
+    "chooseOther": "Choose another file",
+    "uploading": "Uploading...",
+    "submitted": "Video submitted for processing!",
+    "analysisError": "Failed to analyze video",
+    "onlyVideo": "Only video files are accepted",
+    "genMode": "Generation mode",
+    "smartMode": "Smart",
+    "smartSub": "You set the number of shorts — AI auto-picks and arranges the key clips",
+    "simpleMode": "Quick",
+    "simpleSub": "Splits the video into even sequential parts",
+    "variationsCount": "Variations",
+    "subtitles": "Subtitles",
+    "subtitlesHint": "Words light up in sync with speech (AI)",
+    "smartInfo": "Each short is a 30–60s compilation auto-assembled by AI from the video's key moments. Shorts differ from each other.",
+    "simpleInfo": "Each short is one contiguous segment, at least 30s. Video length ÷ shorts must be ≥ 30s.",
+    "subtitleLang": "Subtitle language",
+    "langAuto": "Auto-detect",
+    "proMode": "Track",
+    "proSub": "Like Smart, but crops to 9:16 following the mouse / on-screen action (for screen recordings)",
+    "proInfo": "Each short is built from key moments but, instead of blur bars, it crops to 9:16 while following the mouse / action. Ideal for screen & monitor recordings.",
+    "errors": {
+      "invalidUrl": "Enter a valid URL",
+      "noFile": "Select a video file",
+      "invalidFile": "Only video files are supported",
+      "shortsRange": "Number of shorts must be between 1 and 10"
+    }
+  },
+  "job": {
+    "steps": {
+      "pending": "Received",
+      "downloading": "Downloading",
+      "processing": "Processing",
+      "completed": "Done"
+    },
+    "shortsReady": "{{count}} shorts ready",
+    "short": "Short",
+    "download": "Download",
+    "downloading": "Downloading…",
+    "preparing": "Preparing…",
+    "back": "Back",
+    "retry": "Try Again",
+    "shortsRequested": "shorts requested",
+    "loading": "Loading data…",
+    "resultsReady": "{{count}} results ready",
+    "pollError": "Lost contact with the server. Refresh the page.",
+    "resultError": "The job finished but its result could not be loaded. Check History.",
+    "cancel": "Cancel job",
+    "cancelled": "Job cancelled",
+    "cancelConfirm": "Cancel this job? It stops once the current stage finishes."
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage account and system parameters",
+    "tabs": {
+      "account": "Account",
+      "security": "Security",
+      "ai": "AI Settings"
+    },
+    "account": {
+      "title": "Account Details",
+      "subtitle": "Change your username",
+      "usernameLabel": "Username",
+      "usernameHint": "3-32 chars: letters, numbers, _",
+      "noChanges": "No changes to save",
+      "saved": "Profile updated"
+    },
+    "security": {
+      "title": "Change Password",
+      "subtitle": "We recommend using a strong password",
+      "currentPw": "Current password",
+      "newPw": "New password",
+      "minChars": "at least 8 characters",
+      "confirmPw": "Confirm new password",
+      "changePw": "Change Password",
+      "mismatch": "New passwords do not match",
+      "tooShort": "New password must be at least 8 characters",
+      "changed": "Password changed successfully"
+    },
+    "ai": {
+      "title": "AI Provider",
+      "subtitle": "Set the .env variables matching the selected provider",
+      "ollamaNote": "Local · free · no internet required",
+      "restartHint": "After saving: cd backend && make dev",
+      "note": "AI settings are managed via the .env file. Restart the backend server after changes."
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "empty": "No notifications yet",
+    "readAll": "Mark all read",
+    "completed": "{{count}} shorts ready!",
+    "failed": "Processing failed",
+    "hint": "Showing last 30 notifications"
+  },
+  "users": {
+    "title": "Users",
+    "total": "{{count}} users",
+    "empty": "No users yet",
+    "add": "Add",
+    "addFirst": "Add the first one",
+    "loadError": "Failed to load users",
+    "form": {
+      "title": "New User",
+      "subtitle": "Create an admin or regular user",
+      "password": "Password",
+      "create": "Create"
+    },
+    "table": {
+      "user": "User",
+      "role": "Role",
+      "status": "Status"
+    },
+    "active": "Active",
+    "inactive": "Inactive",
+    "toggleRole": "Toggle role",
+    "deleted": "{{username}} deleted",
+    "created": "{{username}} added",
+    "activated": "Activated",
+    "deactivated": "Deactivated",
+    "roleChanged": "Role changed: {{role}}"
+  },
+  "subtitlePage": {
+    "title": "Subtitle a video",
+    "subtitle": "Subtitle any video — AI aligns your text to the audio",
+    "anyFormat": "Any format",
+    "videoLabel": "Video",
+    "videoHint": "Vertical short or horizontal video — any size and length",
+    "textLabel": "Text (transcript)",
+    "textPlaceholder": "Paste the spoken text from the video here, in order...",
+    "textHint": "Provide the ready text — AI places each word at its best-matching moment",
+    "words": "words",
+    "info": "No STT needed: Whisper only measures the timing, the words come from your text — so subtitles are 100% accurate. The video doesn't have to be a short: it works on any video.",
+    "howTitle": "How it works",
+    "step1": "Whisper finds the exact time of every word in the audio",
+    "step2": "AI aligns your text to those moments by similarity",
+    "step3": "Subtitles are burned over the video at its original size",
+    "submit": "Add subtitles",
+    "errors": {
+      "noText": "Enter the text"
+    }
+  },
+  "editor": {
+    "title": "Video editor",
+    "subtitle": "Trim your video, fit it to a format and add text",
+    "subtitlePro": "Cut and join several pieces, fit the format and add timed captions",
+    "badge": "Montage",
+    "upload": "Upload a video",
+    "uploadHint": "To cut, montage and add text",
+    "outputMode": "Output format",
+    "mode_short": "Short",
+    "mode_phone": "Phone",
+    "mode_custom": "Custom",
+    "modeHint_short": "9:16 vertical, max 60 seconds (Shorts/Reels/TikTok)",
+    "modeHint_phone": "9:16 vertical, no length limit",
+    "modeHint_custom": "Choose the format yourself",
+    "totalLength": "Total length",
+    "segments": "Segments",
+    "addSegment": "Add segment",
+    "sourceTimeline": "Source timeline",
+    "timelineHint": "Coloured blocks are kept parts. Click a block to edit it.",
+    "texts": "Captions",
+    "addText": "Add caption",
+    "textsHint": "Add a caption at the moment you need — you can add several.",
+    "from": "from",
+    "to": "to",
+    "cutTitle": "Cut",
+    "split": "Split",
+    "remove": "Remove",
+    "restore": "Restore",
+    "kept": "Kept",
+    "pieceN": "Piece {{n}} selected",
+    "cutHelp": "Click the strip to place the playhead → Split → select an unwanted piece and Remove.",
+    "trim": "Trim",
+    "trimHint": "Pick the part to keep",
+    "start": "Start",
+    "end": "End",
+    "setStart": "Set start here",
+    "setEnd": "Set end here",
+    "playSel": "Preview selection",
+    "selected": "Selected",
+    "aspect": "Format",
+    "aspectOriginal": "Original",
+    "fit": "Fit mode",
+    "fitCrop": "Fill",
+    "fitPad": "Fit",
+    "fitCropHint": "Frame is fully filled, edges are cropped",
+    "fitPadHint": "Whole frame is visible, blurred background on the edges",
+    "text": "Text (optional)",
+    "textPlaceholder": "Text shown over the video…",
+    "position": "Position",
+    "posTop": "Top",
+    "posCenter": "Center",
+    "posBottom": "Bottom",
+    "textColor": "Colour",
+    "textColorCustom": "Custom colour",
+    "textSize": "Size",
+    "sizeS": "Small",
+    "sizeM": "Medium",
+    "sizeL": "Large",
+    "sizeXL": "X-Large",
+    "preview": "Preview",
+    "submit": "Render montage",
+    "errors": {
+      "range": "At least one valid segment is required",
+      "shortMax": "Short mode total length must not exceed 60 seconds"
+    }
+  },
+  "toolHub": {
+    "title": "Tools",
+    "subtitle": "Quick tools for video, audio and images",
+    "video": "Video tools",
+    "audio": "Audio tools",
+    "image": "Image tools"
+  },
+  "toolRun": {
+    "result": "Result",
+    "download": "Download",
+    "processing": "Working…",
+    "processingHint": "This takes a moment",
+    "done": "Done",
+    "failed": "Something went wrong",
+    "new": "New",
+    "run": "Run",
+    "needLogo": "Choose a logo image",
+    "chooseLogo": "Choose logo"
+  },
+  "tf": {
+    "crf": "Compression level",
+    "speed": "Speed",
+    "start": "Start",
+    "end": "End",
+    "fps": "FPS",
+    "width": "Width",
+    "aspect": "Format",
+    "fit": "Fit",
+    "format": "Format",
+    "volume": "Volume (dB)",
+    "pitch": "Pitch (semitones)",
+    "logo": "Logo (image)",
+    "position": "Position",
+    "posTopLeft": "Top left",
+    "posTopRight": "Top right",
+    "posBottomLeft": "Bottom left",
+    "posBottomRight": "Bottom right",
+    "posCenter": "Center",
+    "scale": "Size",
+    "opacity": "Opacity",
+    "sharpness": "Sharpness",
+    "contrast": "Contrast",
+    "color": "Color",
+    "factor": "Scale",
+    "music_volume": "Music volume"
+  },
+  "toolDefs": {
+    "compress": {
+      "name": "Compress",
+      "desc": "Shrink the file size"
+    },
+    "speed": {
+      "name": "Speed",
+      "desc": "Speed up or slow down the video"
+    },
+    "gif": {
+      "name": "Make GIF",
+      "desc": "Create a GIF from the video"
+    },
+    "extract_audio": {
+      "name": "Extract audio",
+      "desc": "Pull the audio (MP3) from a video"
+    },
+    "aspect": {
+      "name": "Fit format",
+      "desc": "Fit the video to 9:16 / 1:1 / 16:9"
+    },
+    "trim": {
+      "name": "Trim audio",
+      "desc": "Cut out the part you need"
+    },
+    "audio_convert": {
+      "name": "Convert format",
+      "desc": "Change the audio format (MP3, WAV…)"
+    },
+    "volume": {
+      "name": "Volume",
+      "desc": "Boost or lower the sound"
+    },
+    "pitch": {
+      "name": "Pitch",
+      "desc": "Shift the pitch up or down"
+    },
+    "crop": {
+      "name": "Crop image",
+      "desc": "Crop the image to a format"
+    },
+    "resize": {
+      "name": "Resize",
+      "desc": "Change the image size"
+    },
+    "image_convert": {
+      "name": "Convert format",
+      "desc": "Change the image format (PNG, JPG…)"
+    },
+    "watermark": {
+      "name": "Logo (watermark)",
+      "desc": "Overlay a logo / watermark on the video"
+    },
+    "enhance": {
+      "name": "Enhance quality",
+      "desc": "Boost sharpness, contrast and colors"
+    },
+    "upscale": {
+      "name": "Upscale",
+      "desc": "Enlarge the image 2× / 4× with quality"
+    },
+    "concat": {
+      "name": "Join audio",
+      "desc": "Concatenate several audio files into one"
+    },
+    "mix": {
+      "name": "Mix (voice + music)",
+      "desc": "Add background music under a voice track"
+    }
+  },
+  "media": {
+    "onlyVideo": "Video files only",
+    "onlyAudio": "Audio files only",
+    "dropVideo": "Drop a video file",
+    "dropAudio": "Drop an audio file",
+    "formatsVideo": "MP4, MOV, MKV, WEBM… · click to choose",
+    "formatsAudio": "MP3, WAV, M4A, FLAC… · click to choose"
+  },
+  "transcribe": {
+    "title": "Transcribe (STT)",
+    "subtitle": "Upload audio or video — get text with timestamps",
+    "drop": "Drop an audio or video file here",
+    "formats": "MP3, WAV, M4A… or MP4, MOV, MKV… · or click",
+    "onlyMedia": "Audio or video files only",
+    "submit": "Transcribe to text",
+    "processing": "Transcribing…",
+    "processingHint": "Whisper is converting the audio to text",
+    "done": "Transcript ready",
+    "failed": "Transcription failed",
+    "segments": "segments",
+    "plain": "Plain text",
+    "new": "New"
+  },
+  "cleanup": {
+    "title": "Audio cleanup",
+    "subtitle": "Audio or video — normalises loudness and removes noise",
+    "drop": "Drop an audio/video file",
+    "formats": "MP3, WAV, MP4, MOV… · or click",
+    "onlyMedia": "Audio or video only",
+    "submit": "Clean up",
+    "processing": "Cleaning up…",
+    "processingHint": "Enhancing the audio",
+    "done": "Done — audio cleaned",
+    "failed": "Cleanup failed",
+    "download": "Download cleaned file",
+    "new": "New",
+    "info": "Loudness normalisation (loudnorm) + noise reduction (afftdn). Audio also gets long silences trimmed. Video keeps its picture, only the audio is improved."
+  },
+  "separate": {
+    "title": "Vocal / music separation",
+    "subtitle": "Split a song into voice and music — for karaoke or clean vocals",
+    "drop": "Drop an audio/video file",
+    "formats": "MP3, WAV, MP4… · or click",
+    "onlyMedia": "Audio or video only",
+    "submit": "Separate",
+    "processing": "Separating…",
+    "processingHint": "Demucs is splitting voice and music (takes a moment)",
+    "done": "Done",
+    "failed": "Separation failed",
+    "download": "Download",
+    "new": "New",
+    "vocals": "Vocals",
+    "instrumental": "Music",
+    "karaoke": "Karaoke (video)",
+    "info": "The Demucs AI model splits the track into vocals and music. For video, a karaoke (no-vocals) version is also produced."
+  },
+  "tts": {
+    "title": "Text to Speech",
+    "subtitle": "Type text — AI turns it into natural speech",
+    "textLabel": "Text",
+    "textPlaceholder": "Type the text to read aloud…",
+    "language": "Language",
+    "voice": "Voice",
+    "clone": "Clone a voice (optional)",
+    "cloneHint": "Upload a sample (6–30s)",
+    "onlyAudio": "Audio files only",
+    "info": "Coqui XTTS-v2 turns text into natural speech. Uzbek text is read with Turkish pronunciation. Upload a sample to speak in that voice.",
+    "submit": "Generate speech",
+    "fileName": "speech",
+    "result": "Generated audio",
+    "done": "Done",
+    "new": "New",
+    "download": "Download",
+    "failed": "Speech generation failed",
+    "processing": "Generating speech…",
+    "processingHint": "XTTS is turning text into speech (model downloads on first run)",
+    "lang": {
+      "uz": "Uzbek",
+      "ru": "Russian",
+      "en": "English",
+      "tr": "Turkish",
+      "de": "German",
+      "es": "Spanish",
+      "fr": "French",
+      "it": "Italian",
+      "pt": "Portuguese",
+      "ar": "Arabic"
+    },
+    "errors": {
+      "noText": "Enter some text"
+    }
+  },
+  "dub": {
+    "title": "Translate & dub",
+    "subtitle": "Translate the speech in a video to another language and re-voice it",
+    "drop": "Drop an audio/video file",
+    "formats": "MP4, MOV, MP3, WAV… · or click",
+    "onlyMedia": "Audio or video only",
+    "sourceLang": "Source language",
+    "targetLang": "Target language",
+    "cloneVoice": "Clone the original voice",
+    "submit": "Dub it",
+    "processing": "Dubbing…",
+    "processingHint": "Transcribe → translate → re-voice → mux (takes a while)",
+    "done": "Done",
+    "new": "New",
+    "result": "Dubbed result",
+    "download": "Download",
+    "failed": "Dubbing failed",
+    "info": "Whisper transcribes, an LLM translates, XTTS re-voices (cloning the original speaker), and the new audio is time-fit to the original timing and muxed back."
+  },
+  "image": {
+    "title": "Remove background",
+    "subtitle": "Automatically cut out the background — transparent PNG",
+    "drop": "Drop an image here",
+    "formats": "PNG, JPG, WEBP · or click",
+    "onlyImage": "Image files only",
+    "submit": "Remove background",
+    "processing": "Processing…",
+    "processingHint": "AI is isolating the subject",
+    "done": "Done",
+    "new": "New",
+    "result": "Result (transparent background)",
+    "download": "Download PNG",
+    "failed": "Background removal failed",
+    "info": "The rembg (u2net) AI model keeps the main subject and makes the background transparent. Output is PNG.",
+    "errors": {
+      "noFile": "Choose an image"
+    }
+  },
+  "img2short": {
+    "title": "Image to Short",
+    "subtitle": "Turn several images into a 9:16 short video",
+    "drop": "Drop images here or click to select",
+    "formats": "PNG, JPG, WEBP — multiple allowed",
+    "onlyImage": "Images only",
+    "count": "{{count}} image(s) selected",
+    "submit": "Create short",
+    "processing": "Building short...",
+    "processingHint": "Rendering the video",
+    "done": "Done",
+    "new": "New",
+    "result": "Result",
+    "download": "Download",
+    "failed": "Could not build short",
+    "info": "Each image is shown for a few seconds with a slow zoom and crossfades.",
+    "errors": {
+      "noFiles": "Select at least one image"
+    }
+  },
+  "audioMerge": {
+    "addAudio": "Add audio",
+    "concatHint": "Files are joined in upload order",
+    "voice": "Voice (main)",
+    "music": "Music (background)",
+    "chooseVoice": "Choose voice file",
+    "chooseMusic": "Choose music file",
+    "needTwo": "Add at least 2 audio files",
+    "needBoth": "Choose voice and music files",
+    "crossfade": "Crossfade",
+    "crossfadeOff": "Off"
+  },
+  "videoMerge": {
+    "title": "Merge videos",
+    "subtitle": "Join several clips and animate the cut between scenes",
+    "badge": "Montage",
+    "addVideo": "Add video",
+    "concatHint": "Clips are joined in the order shown. Use the arrows to reorder.",
+    "needTwo": "Add at least 2 videos",
+    "transition": "Transition animation",
+    "transitionHint": "The effect shown when moving from one clip to the next",
+    "music": "Background music (optional)",
+    "chooseMusic": "Choose music file",
+    "musicVolume": "Music volume",
+    "duration": "Animation length",
+    "aspect": "Format",
+    "aspectOriginal": "Original",
+    "transitions": {
+      "none": "Hard cut",
+      "fade": "Cross fade",
+      "fadeblack": "Fade through black",
+      "fadewhite": "Fade through white",
+      "dissolve": "Dissolve",
+      "wipeleft": "Wipe left",
+      "wiperight": "Wipe right",
+      "slideup": "Slide up",
+      "slidedown": "Slide down",
+      "slideleft": "Slide left",
+      "slideright": "Slide right",
+      "circleopen": "Circle open",
+      "radial": "Radial",
+      "smoothleft": "Smooth left",
+      "wave": "Wave sweep",
+      "pixelize": "Pixelize"
+    }
+  },
+  "result": {
+    "short": "Short",
+    "video": "Video",
+    "audio": "Audio",
+    "image": "Image",
+    "dub": "Dub",
+    "track": "Track",
+    "file": "Result"
+  },
+  "imageHistory": {
+    "empty": "No image jobs yet",
+    "addFirst": "Upload your first image",
+    "op": {
+      "bgRemove": "Remove background",
+      "toShorts": "Image to short",
+      "crop": "Crop",
+      "resize": "Resize",
+      "convert": "Convert",
+      "enhance": "Enhance",
+      "upscale": "Upscale"
+    }
+  }
+}

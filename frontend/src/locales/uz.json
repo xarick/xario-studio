@@ -1,0 +1,701 @@
+{
+  "nav": {
+    "panel": "Panel",
+    "system": "Tizim",
+    "dashboard": "Dashboard",
+    "videos": "Videos",
+    "editor": "Video muharrir",
+    "videoMerge": "Videolarni ulash",
+    "newVideo": "Yangi Video",
+    "history": "Tarix",
+    "audios": "Audios",
+    "newAudio": "Matn → Ovoz",
+    "audioHistory": "Audio Tarixi",
+    "photos": "Photos",
+    "newPhoto": "Yangi Rasm",
+    "photoHistory": "Rasm Tarixi",
+    "tools": "Tools",
+    "settings": "Sozlamalar",
+    "users": "Foydalanuvchilar",
+    "subtitle": "Subtitr qo'shish",
+    "transcribe": "Transkripsiya",
+    "cleanup": "Audio tozalash",
+    "separate": "Vokal ajratish",
+    "dub": "Tarjima/Dublyaj",
+    "img2Short": "Rasmdan short",
+    "videoToText": "Video → Matn"
+  },
+  "modeBadge": {
+    "simple": "Tezkor",
+    "smart": "Aqlli",
+    "pro": "Kuzatuv",
+    "edit": "Montaj",
+    "subtitle": "Subtitr",
+    "cleanup": "Tozalash",
+    "separate": "Ajratish",
+    "dub": "Dublyaj",
+    "transcribe": "Matn",
+    "tts": "Ovoz",
+    "tool": "Asbob"
+  },
+  "audio": {
+    "comingSoon": "Tez kunda ishga tushadi",
+    "soonTitle": "Audio moduli tayyorlanmoqda",
+    "soonDesc": "Podcast → Shorts, audio vizualizatsiya va boshqa funksiyalar yaqinda qo'shiladi",
+    "historyTitle": "Audio Tarixi",
+    "feat1": "Podcast → Shorts",
+    "feat2": "Waveform vizual",
+    "feat3": "Avtomatik subtitles",
+    "feat4": "Audio cleanup",
+    "empty": {
+      "addAudio": "Birinchi audioni yarating"
+    }
+  },
+  "images": {
+    "comingSoon": "Tez kunda ishga tushadi",
+    "soonTitle": "Photos moduli tayyorlanmoqda",
+    "soonDesc": "Text to Image, background removal va boshqa funksiyalar yaqinda qo'shiladi",
+    "historyTitle": "Rasm Tarixi"
+  },
+  "tools": {
+    "comingSoon": "Tez kunda ishga tushadi",
+    "soonTitle": "Tools moduli tayyorlanmoqda",
+    "soonDesc": "Subtitle generator, thumbnail maker, script writer va boshqa asboblar",
+    "feat1": "Subtitle Generator",
+    "feat2": "Thumbnail Maker",
+    "feat3": "Script Writer"
+  },
+  "status": {
+    "pending": "Kutilmoqda",
+    "downloading": "Yuklanmoqda",
+    "processing": "Qayta ishlanmoqda",
+    "completed": "Tayyor",
+    "failed": "Xato"
+  },
+  "common": {
+    "loading": "Yuklanmoqda…",
+    "error": "Xato yuz berdi",
+    "cancel": "Bekor",
+    "save": "Saqlash",
+    "delete": "O'chirish",
+    "refresh": "Yangilash",
+    "search": "Qidirish…",
+    "back": "Orqaga",
+    "all": "Barchasi",
+    "add": "Qo'shish",
+    "close": "Yopish",
+    "create": "Yaratish",
+    "noChanges": "Hech qanday o'zgarish yo'q",
+    "logout": "Chiqish"
+  },
+  "login": {
+    "subtitle": "Admin panelga kirish",
+    "username": "Username",
+    "password": "Parol",
+    "submit": "Kirish",
+    "footer": "Foydalanuvchi super admin tomonidan yaratiladi",
+    "invalidCredentials": "Username yoki parol noto'g'ri",
+    "welcome": "Xush kelibsiz!"
+  },
+  "dashboard": {
+    "greeting": "Salom,",
+    "subtitle": "Video shortlaringizni boshqaring",
+    "newVideo": "Yangi video",
+    "recentVideos": "So'nggi videolar",
+    "viewAll": "Barchasi",
+    "stats": {
+      "totalVideos": "Jami videolar",
+      "shortsCreated": "Short yaratildi",
+      "successful": "Muvaffaqiyatli",
+      "processing": "Qayta ishlanmoqda"
+    },
+    "empty": {
+      "title": "Hali video yo'q",
+      "subtitle": "Birinchi videoni qo'shing — AI avtomatik shortlarga bo'ladi",
+      "action": "Video qo'shish"
+    },
+    "failedAlert_one": "{{count}} ta video qayta ishlashda xato berdi",
+    "failedAlert_other": "{{count}} ta video qayta ishlashda xato berdi",
+    "viewHistory": "Tarixda ko'rish →",
+    "quickActions": "Tezkor amallar"
+  },
+  "history": {
+    "title": "Tarix",
+    "total": "{{count}} ta video",
+    "noVideos": "Hali video yo'q",
+    "allModes": "Barcha rejimlar",
+    "table": {
+      "video": "Video",
+      "mode": "Usul",
+      "shorts": "Shorts",
+      "duration": "Uzunlik",
+      "date": "Vaqt",
+      "status": "Status"
+    },
+    "deleted": "Video o'chirildi",
+    "empty": {
+      "notFound": "Hech narsa topilmadi",
+      "noVideos": "Hali video yo'q",
+      "clearFilter": "Filterni tozalash",
+      "addFirst": "Birinchi videoni qo'shing",
+      "addVideo": "Video qo'shish"
+    }
+  },
+  "newVideo": {
+    "title": "Yangi Video",
+    "subtitle": "Video kiriting — AI uni shortlarga ajratadi",
+    "urlMode": "URL orqali",
+    "urlSub": "YouTube, TikTok, Vimeo…",
+    "fileMode": "Fayl yuklash",
+    "fileSub": "MP4, MOV, AVI, MKV, WebM",
+    "urlHint": "YouTube, TikTok, Instagram, Vimeo va boshqa platformalar",
+    "aiSuggest": "AI tavsiya so'rash",
+    "analyzing": "Tahlil qilinmoqda…",
+    "aiRecommends": "AI tavsiya: {{count}} ta short",
+    "apply": "Ishlatish",
+    "shortsCount": "Shorts soni",
+    "submit": "Shortlarga ajratish",
+    "dropFile": "Faylni bu yerga tashlang",
+    "orClick": "yoki bosib tanlang · maks 500 MB",
+    "chooseOther": "Boshqasini tanlash",
+    "uploading": "Yuklanmoqda...",
+    "submitted": "Video qayta ishlanishga yuborildi!",
+    "analysisError": "Tahlil qilishda xato",
+    "onlyVideo": "Faqat video fayllar qabul qilinadi",
+    "genMode": "Yaratish usuli",
+    "smartMode": "Aqlli",
+    "smartSub": "Siz shorts sonini berasiz — AI muhim kadrlarni avtomat tanlab yig'adi",
+    "simpleMode": "Tezkor",
+    "simpleSub": "Videoni teng qismlarga ketma-ket bo'ladi",
+    "variationsCount": "Variantlar soni",
+    "subtitles": "Subtitrlar",
+    "subtitlesHint": "So'zlar gapirilganda yonadi (AI)",
+    "smartInfo": "Har short — videoning muhim lahzalaridan AI avtomat yig'adigan 30–60s kompilyatsiya. Shortlar bir-biridan farq qiladi.",
+    "simpleInfo": "Har short — bitta uzluksiz qism, kamida 30s. Video / short soni 30s dan katta bo'lishi kerak.",
+    "subtitleLang": "Subtitr tili",
+    "langAuto": "Avto-aniqlash",
+    "proMode": "Kuzatuv",
+    "proSub": "Smart kabi, lekin sichqoncha/harakatga qarab 9:16 kadrlaydi (ekran yozuvlari uchun)",
+    "proInfo": "Har short — muhim lahzalardan, lekin blur fon o'rniga sichqoncha/harakatga ergashib 9:16 ga kesiladi. Ekran/monitor yozuvlari uchun ideal.",
+    "errors": {
+      "invalidUrl": "To'g'ri URL kiriting",
+      "noFile": "Video fayl tanlang",
+      "invalidFile": "Faqat video fayllar qo'llab-quvvatlanadi",
+      "shortsRange": "Shorts soni 1-10 oralig'ida bo'lishi kerak"
+    }
+  },
+  "job": {
+    "steps": {
+      "pending": "Qabul qilindi",
+      "downloading": "Yuklanmoqda",
+      "processing": "Ishlanmoqda",
+      "completed": "Tayyor"
+    },
+    "shortsReady": "{{count}} ta short tayyor",
+    "short": "Short",
+    "download": "Yuklab olish",
+    "downloading": "Yuklanmoqda…",
+    "preparing": "Tayyorlanmoqda…",
+    "back": "Orqaga",
+    "retry": "Qayta urinish",
+    "shortsRequested": "ta short so'raldi",
+    "loading": "Ma'lumot yuklanmoqda…",
+    "resultsReady": "{{count}} ta natija tayyor",
+    "pollError": "Server bilan aloqa uzildi. Sahifani yangilang.",
+    "resultError": "Ish tugadi, lekin natijani yuklab bo'lmadi. Tarixdan qidiring.",
+    "cancel": "Bekor qilish",
+    "cancelled": "Job bekor qilindi",
+    "cancelConfirm": "Bu ishni bekor qilasizmi? Boshlangan bosqich tugagach to'xtaydi."
+  },
+  "settings": {
+    "title": "Sozlamalar",
+    "subtitle": "Hisob va tizim parametrlarini boshqaring",
+    "tabs": {
+      "account": "Hisob",
+      "security": "Xavfsizlik",
+      "ai": "AI Sozlamalar"
+    },
+    "account": {
+      "title": "Hisob ma'lumotlari",
+      "subtitle": "Foydalanuvchi nomini o'zgartiring",
+      "usernameLabel": "Foydalanuvchi nomi",
+      "usernameHint": "3-32 belgi: harflar, raqamlar, _",
+      "noChanges": "Hech qanday o'zgarish yo'q",
+      "saved": "Ma'lumotlar yangilandi"
+    },
+    "security": {
+      "title": "Parolni o'zgartirish",
+      "subtitle": "Kuchli parol ishlatishni tavsiya qilamiz",
+      "currentPw": "Joriy parol",
+      "newPw": "Yangi parol",
+      "minChars": "kamida 8 belgi",
+      "confirmPw": "Yangi parolni tasdiqlang",
+      "changePw": "Parolni o'zgartirish",
+      "mismatch": "Yangi parollar mos kelmaydi",
+      "tooShort": "Yangi parol kamida 8 belgi bo'lishi kerak",
+      "changed": "Parol muvaffaqiyatli o'zgartirildi"
+    },
+    "ai": {
+      "title": "AI Provayder",
+      "subtitle": "Quyida tanlangan provayderga mos .env o'zgaruvchilarini o'rnating",
+      "ollamaNote": "Local · bepul · internet shart emas",
+      "restartHint": "Saqlangach: cd backend && make dev",
+      "note": "AI sozlamalari .env fayli orqali boshqariladi. O'zgartirgandan keyin backend serverni qayta ishga tushiring."
+    }
+  },
+  "notifications": {
+    "title": "Bildirishnomalar",
+    "empty": "Hali bildirishnoma yo'q",
+    "readAll": "Hammasini o'qish",
+    "completed": "{{count}} ta short tayyor!",
+    "failed": "Qayta ishlashda xato",
+    "hint": "So'nggi 30 ta bildirishnoma ko'rsatilmoqda"
+  },
+  "users": {
+    "title": "Foydalanuvchilar",
+    "total": "{{count}} ta foydalanuvchi",
+    "empty": "Hali foydalanuvchi yo'q",
+    "add": "Qo'shish",
+    "addFirst": "Birinchisini qo'shing",
+    "loadError": "Foydalanuvchilarni yuklashda xato",
+    "form": {
+      "title": "Yangi foydalanuvchi",
+      "subtitle": "Admin yoki oddiy user yarating",
+      "password": "Parol",
+      "create": "Yaratish"
+    },
+    "table": {
+      "user": "Foydalanuvchi",
+      "role": "Role",
+      "status": "Holati"
+    },
+    "active": "Faol",
+    "inactive": "Nofaol",
+    "toggleRole": "Roleni o'zgartirish",
+    "deleted": "{{username}} o'chirildi",
+    "created": "{{username}} qo'shildi",
+    "activated": "Faollashtirildi",
+    "deactivated": "Faolsizlantirildi",
+    "roleChanged": "Role o'zgartirildi: {{role}}"
+  },
+  "subtitlePage": {
+    "title": "Videoga subtitr",
+    "subtitle": "Istalgan videoga subtitr — AI berilgan matnni audioga moslab joylaydi",
+    "anyFormat": "Istalgan format",
+    "videoLabel": "Video",
+    "videoHint": "Vertikal short ham, gorizontal video ham — istalgan o'lcham va davomiylik",
+    "textLabel": "Matn (transkript)",
+    "textPlaceholder": "Videoda aytilgan matnni ketma-ket shu yerga joylashtiring...",
+    "textHint": "Tayyor matnni bering — AI har bir so'zni eng mos ovoz lahzasiga qo'yadi",
+    "words": "so'z",
+    "info": "STT shart emas: Whisper faqat vaqtni o'lchaydi, so'zlar esa sizning matningizdan olinadi — shuning uchun subtitr 100% aniq. Video shorts bo'lishi shart emas: istalgan videoga ishlaydi.",
+    "howTitle": "Qanday ishlaydi",
+    "step1": "Whisper audiodan so'zlarning aniq vaqtini topadi",
+    "step2": "AI matningizni o'xshashligiga qarab shu vaqtlarga moslaydi",
+    "step3": "Subtitr videoning asl o'lchamida ustiga yoziladi",
+    "submit": "Subtitr qo'shish",
+    "errors": {
+      "noText": "Matn kiriting"
+    }
+  },
+  "editor": {
+    "title": "Video muharrir",
+    "subtitle": "Videoni kesing, formatga moslang va matn qo'shing",
+    "subtitlePro": "Bir nechta joydan kesib yig'ing, formatga moslang va vaqtli matnlar qo'shing",
+    "badge": "Montaj",
+    "upload": "Video yuklang",
+    "uploadHint": "Kesish, montaj qilish va matn qo'shish uchun",
+    "outputMode": "Chiqish formati",
+    "mode_short": "Short",
+    "mode_phone": "Telefon",
+    "mode_custom": "Erkin",
+    "modeHint_short": "9:16 vertikal, maksimal 60 soniya (Shorts/Reels/TikTok)",
+    "modeHint_phone": "9:16 vertikal, uzunlik cheklanmagan",
+    "modeHint_custom": "Formatni o'zingiz tanlang",
+    "totalLength": "Umumiy uzunlik",
+    "segments": "Bo'laklar",
+    "addSegment": "Bo'lak qo'shish",
+    "sourceTimeline": "Manba vaqt chizig'i",
+    "timelineHint": "Rangli bloklar — saqlanadigan qismlar. Tahrirlash uchun blokni bosing.",
+    "texts": "Matnlar",
+    "addText": "Matn qo'shish",
+    "textsHint": "Kerakli vaqtga matn qo'shing — bir nechta bo'lishi mumkin.",
+    "from": "dan",
+    "to": "gacha",
+    "cutTitle": "Kesish",
+    "split": "Bo'lish",
+    "remove": "Olib tashlash",
+    "restore": "Qaytarish",
+    "kept": "Saqlanadi",
+    "pieceN": "{{n}}-bo'lak tanlangan",
+    "cutHelp": "Chiziqni kerakli joyga bosing → «Bo'lish» bilan kesing → keraksiz bo'lakni bosib «Olib tashlash».",
+    "trim": "Kesish",
+    "trimHint": "Qaysi qismni olishni tanlang",
+    "start": "Boshlanish",
+    "end": "Tugash",
+    "setStart": "Boshlanishni shu yerdan",
+    "setEnd": "Tugashni shu yerdan",
+    "playSel": "Tanlovni ko'rish",
+    "selected": "Tanlangan",
+    "aspect": "Format",
+    "aspectOriginal": "Asl",
+    "fit": "Moslash usuli",
+    "fitCrop": "To'ldirish",
+    "fitPad": "Sig'dirish",
+    "fitCropHint": "Kadr to'liq to'ldiriladi, chetlari kesiladi",
+    "fitPadHint": "Butun kadr ko'rinadi, chetlariga blur fon qo'yiladi",
+    "text": "Matn (ixtiyoriy)",
+    "textPlaceholder": "Ekranga chiqadigan matn…",
+    "position": "Joylashuv",
+    "posTop": "Yuqorida",
+    "posCenter": "O'rtada",
+    "posBottom": "Pastda",
+    "textColor": "Rang",
+    "textColorCustom": "Boshqa rang",
+    "textSize": "O'lcham",
+    "sizeS": "Kichik",
+    "sizeM": "O'rta",
+    "sizeL": "Katta",
+    "sizeXL": "Juda katta",
+    "preview": "Ko'rinish",
+    "submit": "Montaj qilish",
+    "errors": {
+      "range": "Kamida bitta to'g'ri bo'lak bo'lishi kerak",
+      "shortMax": "Short rejimida umumiy uzunlik 60 soniyadan oshmasligi kerak"
+    }
+  },
+  "toolHub": {
+    "title": "Asboblar",
+    "subtitle": "Video, audio va rasm uchun tezkor asboblar",
+    "video": "Video asboblar",
+    "audio": "Audio asboblar",
+    "image": "Rasm asboblar"
+  },
+  "toolRun": {
+    "result": "Natija",
+    "download": "Yuklab olish",
+    "processing": "Bajarilmoqda…",
+    "processingHint": "Biroz vaqt oladi",
+    "done": "Tayyor",
+    "failed": "Xatolik yuz berdi",
+    "new": "Yangi",
+    "run": "Bajarish",
+    "needLogo": "Logo rasm tanlang",
+    "chooseLogo": "Logo tanlash"
+  },
+  "tf": {
+    "crf": "Siqish darajasi",
+    "speed": "Tezlik",
+    "start": "Boshlanish",
+    "end": "Tugash",
+    "fps": "FPS",
+    "width": "Eni",
+    "aspect": "Format",
+    "fit": "Moslash",
+    "format": "Format",
+    "volume": "Ovoz (dB)",
+    "pitch": "Tovush (semiton)",
+    "logo": "Logo (rasm)",
+    "position": "Joylashuv",
+    "posTopLeft": "Yuqori chap",
+    "posTopRight": "Yuqori o'ng",
+    "posBottomLeft": "Past chap",
+    "posBottomRight": "Past o'ng",
+    "posCenter": "O'rtada",
+    "scale": "O'lcham",
+    "opacity": "Tiniqlik",
+    "sharpness": "Aniqlik",
+    "contrast": "Kontrast",
+    "color": "Ranglar",
+    "factor": "Kattalashtirish",
+    "music_volume": "Musiqa balandligi"
+  },
+  "toolDefs": {
+    "compress": {
+      "name": "Siqish",
+      "desc": "Fayl hajmini kichraytirish"
+    },
+    "speed": {
+      "name": "Tezlik",
+      "desc": "Videoni tezlashtirish yoki sekinlashtirish"
+    },
+    "gif": {
+      "name": "GIF yasash",
+      "desc": "Videodan GIF tayyorlash"
+    },
+    "extract_audio": {
+      "name": "Ovozni ajratish",
+      "desc": "Videodan audio (MP3) chiqarish"
+    },
+    "aspect": {
+      "name": "Formatga moslash",
+      "desc": "Videoni 9:16 / 1:1 / 16:9 ga moslash"
+    },
+    "trim": {
+      "name": "Audio kesish",
+      "desc": "Audioning kerakli bo'lagini olish"
+    },
+    "audio_convert": {
+      "name": "Format o'zgartirish",
+      "desc": "Audio formatini o'zgartirish (MP3, WAV…)"
+    },
+    "volume": {
+      "name": "Ovoz balandligi",
+      "desc": "Ovozni kuchaytirish yoki pasaytirish"
+    },
+    "pitch": {
+      "name": "Tovush balandligi",
+      "desc": "Ovoz balandligini (pitch) o'zgartirish"
+    },
+    "crop": {
+      "name": "Rasmni kesish",
+      "desc": "Rasmni formatga qarab kesish"
+    },
+    "resize": {
+      "name": "O'lcham",
+      "desc": "Rasm o'lchamini o'zgartirish"
+    },
+    "image_convert": {
+      "name": "Format o'zgartirish",
+      "desc": "Rasm formatini o'zgartirish (PNG, JPG…)"
+    },
+    "watermark": {
+      "name": "Logo (suv belgisi)",
+      "desc": "Videoga logo / suv belgisi qo'yish"
+    },
+    "enhance": {
+      "name": "Sifatni yaxshilash",
+      "desc": "Aniqlik, kontrast va ranglarni kuchaytirish"
+    },
+    "upscale": {
+      "name": "Kattalashtirish (upscale)",
+      "desc": "Rasmni 2× / 4× sifatli kattalashtirish"
+    },
+    "concat": {
+      "name": "Audio ulash",
+      "desc": "Bir nechta audioni ketma-ket bitta faylga ulash"
+    },
+    "mix": {
+      "name": "Aralashtirish (ovoz+musiqa)",
+      "desc": "Ovoz ustiga fon musiqa qo'shish"
+    }
+  },
+  "media": {
+    "onlyVideo": "Faqat video fayllar",
+    "onlyAudio": "Faqat audio fayllar",
+    "dropVideo": "Video faylni tashlang",
+    "dropAudio": "Audio faylni tashlang",
+    "formatsVideo": "MP4, MOV, MKV, WEBM… · bosib tanlang",
+    "formatsAudio": "MP3, WAV, M4A, FLAC… · bosib tanlang"
+  },
+  "transcribe": {
+    "title": "Transkripsiya (STT)",
+    "subtitle": "Audio yoki video yuboring — matnga, vaqtlari bilan o'giradi",
+    "drop": "Audio yoki video faylni bu yerga tashlang",
+    "formats": "MP3, WAV, M4A… yoki MP4, MOV, MKV… · bosib tanlang",
+    "onlyMedia": "Faqat audio yoki video fayl",
+    "submit": "Matnga o'girish",
+    "processing": "O'girilmoqda…",
+    "processingHint": "Whisper audio'ni matnga aylantiryapti",
+    "done": "Transkripsiya tayyor",
+    "failed": "Transkripsiyada xato",
+    "segments": "segment",
+    "plain": "Oddiy matn",
+    "new": "Yangi"
+  },
+  "cleanup": {
+    "title": "Audio tozalash",
+    "subtitle": "Audio yoki video — ovozni tenglashtiradi, shovqinni tozalaydi",
+    "drop": "Audio/video faylni tashlang",
+    "formats": "MP3, WAV, MP4, MOV… · bosib tanlang",
+    "onlyMedia": "Faqat audio yoki video",
+    "submit": "Tozalash",
+    "processing": "Tozalanmoqda…",
+    "processingHint": "Ovoz yaxshilanmoqda",
+    "done": "Tayyor — ovoz tozalandi",
+    "failed": "Tozalashda xato",
+    "download": "Tozalangan faylni yuklab olish",
+    "new": "Yangi",
+    "info": "Loudness tenglashtirish (loudnorm) + shovqin tozalash (afftdn). Audio uchun uzoq jimliklar ham kesiladi. Video — video saqlanadi, faqat ovozi yaxshilanadi."
+  },
+  "separate": {
+    "title": "Vokal / musiqa ajratish",
+    "subtitle": "Qo'shiqdan ovoz va musiqani ajratadi — karaoke yoki toza ovoz uchun",
+    "drop": "Audio/video faylni tashlang",
+    "formats": "MP3, WAV, MP4… · bosib tanlang",
+    "onlyMedia": "Faqat audio yoki video",
+    "submit": "Ajratish",
+    "processing": "Ajratilmoqda…",
+    "processingHint": "Demucs ovoz va musiqani ajratyapti (biroz vaqt oladi)",
+    "done": "Tayyor",
+    "failed": "Ajratishda xato",
+    "download": "Yuklab olish",
+    "new": "Yangi",
+    "vocals": "Ovoz",
+    "instrumental": "Musiqa",
+    "karaoke": "Karaoke (video)",
+    "info": "Demucs AI modeli qo'shiqni ovoz va musiqaga ajratadi. Video uchun karaoke (ovozsiz) versiya ham tayyorlanadi."
+  },
+  "tts": {
+    "title": "Matndan ovoz (TTS)",
+    "subtitle": "Matn yozing — AI uni tabiiy nutqqa aylantiradi",
+    "textLabel": "Matn",
+    "textPlaceholder": "O'qib berish uchun matnni shu yerga yozing…",
+    "language": "Til",
+    "voice": "Ovoz",
+    "clone": "Ovozni klonlash (ixtiyoriy)",
+    "cloneHint": "Namuna audio yuklang (6–30s)",
+    "onlyAudio": "Faqat audio fayl",
+    "info": "Coqui XTTS-v2 modeli matnni tabiiy nutqqa aylantiradi. O'zbek matni turkcha talaffuz bilan o'qiladi. Namuna audio yuklasangiz — o'sha ovozda gapiradi.",
+    "submit": "Ovozga aylantirish",
+    "fileName": "nutq",
+    "result": "Tayyor audio",
+    "done": "Tayyor",
+    "new": "Yangi",
+    "download": "Yuklab olish",
+    "failed": "Ovozga aylantirishda xato",
+    "processing": "Ovoz tayyorlanmoqda…",
+    "processingHint": "XTTS matnni nutqqa aylantiryapti (birinchi marta model yuklanadi)",
+    "lang": {
+      "uz": "O'zbekcha",
+      "ru": "Ruscha",
+      "en": "Inglizcha",
+      "tr": "Turkcha",
+      "de": "Nemischa",
+      "es": "Ispancha",
+      "fr": "Fransuzcha",
+      "it": "Italyancha",
+      "pt": "Portugalcha",
+      "ar": "Arabcha"
+    },
+    "errors": {
+      "noText": "Matn kiriting"
+    }
+  },
+  "dub": {
+    "title": "Tarjima va dublyaj",
+    "subtitle": "Videodagi nutqni boshqa tilga tarjima qilib, qayta ovozlaydi",
+    "drop": "Audio/video faylni tashlang",
+    "formats": "MP4, MOV, MP3, WAV… · bosib tanlang",
+    "onlyMedia": "Faqat audio yoki video",
+    "sourceLang": "Manba til",
+    "targetLang": "Tarjima tili",
+    "cloneVoice": "Asl ovozni klonlash",
+    "submit": "Dublyaj qilish",
+    "processing": "Dublyaj qilinmoqda…",
+    "processingHint": "Transkripsiya → tarjima → ovozlash → mux (biroz vaqt oladi)",
+    "done": "Tayyor",
+    "new": "Yangi",
+    "result": "Dublyaj natijasi",
+    "download": "Yuklab olish",
+    "failed": "Dublyajda xato",
+    "info": "Whisper nutqni yozadi, AI tarjima qiladi, XTTS qayta ovozlaydi (asl ovozni klonlaydi) va asl taymingga moslab joylaydi."
+  },
+  "image": {
+    "title": "Fonni o'chirish",
+    "subtitle": "Rasmdan fonni avtomatik olib tashlaydi — shaffof PNG",
+    "drop": "Rasmni bu yerga tashlang",
+    "formats": "PNG, JPG, WEBP · bosib tanlang",
+    "onlyImage": "Faqat rasm fayllari",
+    "submit": "Fonni o'chirish",
+    "processing": "Ishlanmoqda…",
+    "processingHint": "AI fonni ajratyapti",
+    "done": "Tayyor",
+    "new": "Yangi",
+    "result": "Natija (shaffof fon)",
+    "download": "PNG yuklab olish",
+    "failed": "Fonni o'chirishda xato",
+    "info": "rembg (u2net) AI modeli asosiy obyektni saqlab, fonni shaffof qiladi. Natija PNG.",
+    "errors": {
+      "noFile": "Rasm tanlang"
+    }
+  },
+  "img2short": {
+    "title": "Rasmdan short",
+    "subtitle": "Bir nechta rasmdan 9:16 short video yarating",
+    "drop": "Rasmlarni shu yerga tashlang yoki tanlang",
+    "formats": "PNG, JPG, WEBP — bir nechta tanlash mumkin",
+    "onlyImage": "Faqat rasm fayllari",
+    "count": "{{count}} ta rasm tanlandi",
+    "submit": "Short yaratish",
+    "processing": "Short yaratilmoqda...",
+    "processingHint": "Video render qilinmoqda",
+    "done": "Tayyor",
+    "new": "Yangi",
+    "result": "Natija",
+    "download": "Yuklab olish",
+    "failed": "Short yaratib bo'lmadi",
+    "info": "Har bir rasm bir necha soniya ko'rsatiladi, zoom va o'tish effektlari bilan.",
+    "errors": {
+      "noFiles": "Kamida bitta rasm tanlang"
+    }
+  },
+  "audioMerge": {
+    "addAudio": "Audio qo'shish",
+    "concatHint": "Fayllar yuklangan tartibda ulanadi",
+    "voice": "Ovoz (asosiy)",
+    "music": "Musiqa (fon)",
+    "chooseVoice": "Ovoz faylini tanlang",
+    "chooseMusic": "Musiqa faylini tanlang",
+    "needTwo": "Kamida 2 ta audio fayl qo'shing",
+    "needBoth": "Ovoz va musiqa faylini tanlang",
+    "crossfade": "Crossfade (silliq o'tish)",
+    "crossfadeOff": "O'chiq"
+  },
+  "videoMerge": {
+    "title": "Videolarni birlashtirish",
+    "subtitle": "Bir nechta videoni ulang va kadrlar orasiga animatsiya qo'shing",
+    "badge": "Montaj",
+    "addVideo": "Video qo'shish",
+    "concatHint": "Videolar yuklangan tartibda ulanadi. Tartibni o'zgartirish uchun strelkalardan foydalaning.",
+    "needTwo": "Kamida 2 ta video qo'shing",
+    "transition": "O'tish animatsiyasi",
+    "transitionHint": "Bir kadrdan boshqasiga o'tishda ko'rinadigan effekt",
+    "music": "Fon musiqasi (ixtiyoriy)",
+    "chooseMusic": "Musiqa faylini tanlang",
+    "musicVolume": "Musiqa balandligi",
+    "duration": "Animatsiya davomiyligi",
+    "aspect": "Format",
+    "aspectOriginal": "Asl",
+    "transitions": {
+      "none": "Keskin o'tish",
+      "fade": "Eritib o'tish",
+      "fadeblack": "Qorayib o'tish",
+      "fadewhite": "Oqarib o'tish",
+      "dissolve": "Tarqab o'tish",
+      "wipeleft": "Chapga surtish",
+      "wiperight": "O'ngga surtish",
+      "slideup": "Yuqoriga siljish",
+      "slidedown": "Pastga siljish",
+      "slideleft": "Chapga siljish",
+      "slideright": "O'ngga siljish",
+      "circleopen": "Doira ochilishi",
+      "radial": "Aylanma o'tish",
+      "smoothleft": "Silliq chapga",
+      "wave": "To'lqin bo'lib o'tish",
+      "pixelize": "Piksellashib o'tish"
+    }
+  },
+  "result": {
+    "short": "Short",
+    "video": "Video",
+    "audio": "Audio",
+    "image": "Rasm",
+    "dub": "Dublyaj",
+    "track": "Trek",
+    "file": "Natija"
+  },
+  "imageHistory": {
+    "empty": "Hali rasm joblari yo'q",
+    "addFirst": "Birinchi rasmni yuklang",
+    "op": {
+      "bgRemove": "Fon olib tashlash",
+      "toShorts": "Rasmdan short",
+      "crop": "Qirqish",
+      "resize": "O'lcham",
+      "convert": "Format",
+      "enhance": "Yaxshilash",
+      "upscale": "Kattalashtirish"
+    }
+  }
+}
